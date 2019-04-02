@@ -1,0 +1,242 @@
+@import url("href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"");
+@import url("href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"");
+
+body{
+	background-image: url("sky.jpg");
+	background-size: 2300px ; 
+	background-repeat: no-repeat;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	height: 300px;
+	padding: 0px;
+
+	grid-template-areas:
+	"logo"
+	"uitleg"
+	"datum"
+	"vliegbasisNL"
+	"vliegbasisNZ";
+}
+
+.div {
+	background-color: rgba(249, 237, 222, 0.6);
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	text-align: justify;
+	padding-right: 20px;
+
+}
+
+h1{
+	padding-left: 20px;
+	font-size: 24px;
+	display: inline-block;
+
+}
+
+article{
+	padding-left: 20px;
+}
+
+p{
+	font-size: 14px;
+	padding-left: 20px;
+	margin-top: 0px;
+}
+
+#logoSpaceX{
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+#vlagNL{
+	width: 30px;
+	padding-left: 10px;
+}
+
+#vlagNZ{
+	width: 30px;
+	padding-left: 10px;
+}
+
+#dateIcon{
+	width: 30px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+/*#issLocation{
+	width:30px;
+	padding-left: 10px;
+}*/
+
+h3, h4{
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+h4{
+	margin-top: 5px;
+}
+
+article{
+	font-size: 14px;
+}
+
+#bdAmsterdam{
+	margin-top:0px;
+}
+
+.logo{
+	grid-area: logo;
+}
+
+.uitleg{
+	grid-area: uitleg;
+}
+
+.vliegbasisNL{
+	grid-area: vliegbasisNL;
+}
+
+.vliegbasisNZ{
+	grid-area: vliegbasisNZ;
+}
+
+.datum{
+	grid-area: datum;
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 1023px){
+	.grid-container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		height: 300px;
+		grid-gap: 10px;
+
+		grid-template-areas:
+			"logo logo"
+			"uitleg uitleg"
+			"vliegbasisNL vliegbasisNZ"
+			"datum datum";
+	}
+
+	p{
+		font-size: 16px;
+	}
+
+	h1{
+		font-size: 26px;
+	}
+
+	h3{
+		font-size: 22px;
+	}
+
+	h4{
+		font-size: 20px;
+	}
+
+	article{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px){
+	.grid-container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		height: 300px;
+		grid-gap: 10px;
+
+		grid-template-areas:
+			"logo logo"
+			"uitleg uitleg"
+			"vliegbasisNL vliegbasisNZ"
+			"datum datum";
+	}
+
+	p{
+		font-size: 19px;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 24px;
+	}
+
+	h4{
+		font-size: 22px;
+	}
+
+	article{
+		font-size: 19px;
+	}
+}
+
+@media only screen and (min-width: 1366px){
+	.grid-container{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		height: 300px;
+		grid-gap: 10px;
+
+		grid-template-areas:
+			"logo logo"
+			"uitleg uitleg"
+			"vliegbasisNL vliegbasisNZ"
+			"datum datum";
+	}
+
+	p{
+		font-size: 19px;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 24px;
+	}
+
+	h4{
+		font-size: 22px;
+	}
+
+	article{
+		font-size: 19px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
